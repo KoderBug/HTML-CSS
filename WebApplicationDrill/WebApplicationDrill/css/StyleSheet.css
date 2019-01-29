@@ -1,0 +1,24 @@
+﻿h1 {
+    text-align: center;
+}
+body {
+    background-color: #006600;
+}
+
+#home {
+    background: url(../images/ColoradoMountain.jpg) no-repeat 50% 50%;
+    background-size: cover; /*no edges*/
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-top: 350px; /* This is spacer before the Main title Logo */
+    padding-bottom: 500px;
+}
+
+p {
+    text-align: center;
+    font-size: 16pt;
+    color: aqua;
+    margin: 35px 300px;
+  
+}

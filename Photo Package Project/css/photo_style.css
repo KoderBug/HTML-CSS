@@ -1,0 +1,85 @@
+/*=======================================
+  GALLERY SECTION ANIMATION
+  =======================================*/
+
+  p {                           /* targeting paragraphs */
+    font-weight: 300;           /* boldness of text */
+    line-height: 30px;          /* space above words in line, line spacing */
+    padding-bottom: 15px;       /* bottom edge of image should be 15 pixels to the bottom of the paragraph text */
+}
+
+.photo {
+	position: relative;         /* photo relative to container */
+	line-height: 0;             /* 0 applying top bottom right left - same value use shorthand */
+	margin-bottom: 2em;         /* margin - outside element */
+	overflow: hidden;           /* anything goes beyond the border of the photo should be hidden */
+	border-radius: 8px;         /* rounding edges */
+	padding: 1px;               /* padding - inside of element */
+	border: 1px solid #021a40;
+	background-color: #ff0;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+}
+
+.photo-container {
+	text-align: center;
+	margin: 15px auto;  /* 2 values means first value top bottom second value right left so auto means centering */
+	width: 300px;       /* width and height are same as image size */
+    height: 169px;
+}
+
+.photo-container img {  /* image is inside the photo container in html */
+ 	max-width: 100%;  /* max don't get any larger than the value given in */
+	width: 300px;     /* width  & height here */
+	height: 169px;
+}
+
+.photo-overlay {
+	color: #fff;
+	position: absolute; /* go exactly where defined here */
+	top: 0;
+	right: 0;
+	bottom: 0; 
+	left: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	justify-content: center; /* For centering text inside .photo-overlay */
+	align-items: center;
+	background: rgba(0,0,0, .5);
+}
+
+.white-head {           /* for h3 tag wanted it to be a little different */
+	color: #C9BDAA;
+	margin-top: 5%;     /* wanted 'Click to Enlarge' to come down a bit from top of photo */
+	line-height: 30px;
+    padding-bottom: 20px;
+}
+
+/* ================================= 
+  Photo Overlay Transitions
+==================================== */
+
+.photo-overlay {
+	opacity: 0;  /* 0 means overlay transparent when not hovered over */
+	transition: opacity .1s; /* opacity is transition property, transition will take .1 seconds for words to display */
+							/* transition creates the animation part of it */
+	border-radius: 10px;
+	cursor: pointer;
+}
+.photo-overlay p {
+	width: 100%;
+	height: 100%;
+	color: #fff;
+}
+.photo-overlay:hover {
+	opacity: 1;     /* when they hover over image they see words */
+}
+
+.photo img {
+	transition: transform .5s; /* transform property, sets time for transform to take place - words show up */
+	transform-origin: 50% 50%;  /* transform-origin pespective user sees on their screen, 50 50 straight dead on */
+}
+
+.photo:hover img {
+	transform: scale(1.1); /* hover over photo then effect the image-max by 1 size larger than before */
+	 /* this is the property from the transition command above */
+}

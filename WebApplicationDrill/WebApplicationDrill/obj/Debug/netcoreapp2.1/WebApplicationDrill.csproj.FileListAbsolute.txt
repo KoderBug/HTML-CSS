@@ -1,0 +1,14 @@
+C:\Users\mshaf\Tech-Academy-Visual-Studio-Projects\WebApplicationDrill\WebApplicationDrill\bin\Debug\netcoreapp2.1\WebApplicationDrill.deps.json
+C:\Users\mshaf\Tech-Academy-Visual-Studio-Projects\WebApplicationDrill\WebApplicationDrill\bin\Debug\netcoreapp2.1\WebApplicationDrill.runtimeconfig.json
+C:\Users\mshaf\Tech-Academy-Visual-Studio-Projects\WebApplicationDrill\WebApplicationDrill\bin\Debug\netcoreapp2.1\WebApplicationDrill.runtimeconfig.dev.json
+C:\Users\mshaf\Tech-Academy-Visual-Studio-Projects\WebApplicationDrill\WebApplicationDrill\bin\Debug\netcoreapp2.1\WebApplicationDrill.dll
+C:\Users\mshaf\Tech-Academy-Visual-Studio-Projects\WebApplicationDrill\WebApplicationDrill\bin\Debug\netcoreapp2.1\WebApplicationDrill.pdb
+C:\Users\mshaf\Tech-Academy-Visual-Studio-Projects\WebApplicationDrill\WebApplicationDrill\obj\Debug\netcoreapp2.1\WebApplicationDrill.csprojAssemblyReference.cache
+C:\Users\mshaf\Tech-Academy-Visual-Studio-Projects\WebApplicationDrill\WebApplicationDrill\obj\Debug\netcoreapp2.1\WebApplicationDrill.csproj.CoreCompileInputs.cache
+C:\Users\mshaf\Tech-Academy-Visual-Studio-Projects\WebApplicationDrill\WebApplicationDrill\obj\Debug\netcoreapp2.1\WebApplicationDrill.RazorAssemblyInfo.cache
+C:\Users\mshaf\Tech-Academy-Visual-Studio-Projects\WebApplicationDrill\WebApplicationDrill\obj\Debug\netcoreapp2.1\WebApplicationDrill.RazorAssemblyInfo.cs
+C:\Users\mshaf\Tech-Academy-Visual-Studio-Projects\WebApplicationDrill\WebApplicationDrill\obj\Debug\netcoreapp2.1\WebApplicationDrill.AssemblyInfoInputs.cache
+C:\Users\mshaf\Tech-Academy-Visual-Studio-Projects\WebApplicationDrill\WebApplicationDrill\obj\Debug\netcoreapp2.1\WebApplicationDrill.AssemblyInfo.cs
+C:\Users\mshaf\Tech-Academy-Visual-Studio-Projects\WebApplicationDrill\WebApplicationDrill\obj\Debug\netcoreapp2.1\WebApplicationDrill.RazorTargetAssemblyInfo.cache
+C:\Users\mshaf\Tech-Academy-Visual-Studio-Projects\WebApplicationDrill\WebApplicationDrill\obj\Debug\netcoreapp2.1\WebApplicationDrill.dll
+C:\Users\mshaf\Tech-Academy-Visual-Studio-Projects\WebApplicationDrill\WebApplicationDrill\obj\Debug\netcoreapp2.1\WebApplicationDrill.pdb
