@@ -1,0 +1,43 @@
+/*================================================
+    Authour: Michelle Haffner
+==================================================*/
+
+
+/*=======================================
+  HOME SECTION STYLES
+  =======================================*/
+  #home { /*this is how you do an image in css, this is the background image on the home page */
+    background: url(../images/GOG_Landscape.jpg) no-repeat 50% 50%;
+    /*don't repeat the image if browser could, 50% 50%-controlling image size */
+	background-attachment: fixed; /*prevents image from moving when scrolling */
+	-webkit-background-size: cover; /*older browser tags */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    background-size: 100% 100%; /*no edges*/
+    background-position: center;
+    width: 100%;
+    display: block;
+    height: auto;
+	padding-top: 350px; /* This is spacer before the Main title Logo */
+	padding-bottom: 500px; /* This is spacer after the Main title Logo */
+	background-color: #0f0435;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .head-main {
+	text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
+	color: #fff;
+	letter-spacing: 5pt;
+	word-spacing: 21pt;
+	font-size: 4.5em;
+	text-align: left;
+	font-family: "Arial";
+	line-height: 2;
+    font-weight: 900;
+    /*border: 5px double #fff;
+    padding: 10px;*/
+}
